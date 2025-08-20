@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D'Nelliel - Café de Altura de la Sierra Norte de Puebla</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="img/logo.jpg" alt="Logo D'Nelliel">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="conocenos.html">Conócenos</a></li>
+                <li><a href="#contacto">Contáctanos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="inicio">
+        <h1>D'Nelliel</h1>
+        <p>Despierta tus sentidos con D'Nelliel. Nuestro café de altura es una invitación a la tradición y el sabor de la Sierra Norte de Puebla</p>
+        <a href="productos.html" class="cta-button">Ver Nuestros Productos</a>
+    </header>
+    <main>
+        <section class="intro-section">
+            <h2>Del Corazón de la Sierra a tu Taza</h2>
+            <p>En las fertiles tierras de Xochitlan de Vicente Suárez, Puebla, cultivamos un café de especialidad que cuenta una historia en cada sorbo. Cosechado a mano y procesado con métodos artesanales, D'Nelliel es mas que cafe, es una herencia de sabor y calidad</p>
+            <div class="intro-images">
+                <img src="img/sembradio.jpg" alt="Sembradio de café">
+                <img src="img/cosecha.jpg" alt="Cosecha manual de café">
+                <img src="img/taza de cafe.jpg" alt="Taza de café servido">
+            </div>
+        </section>
+        <section class="feactured-product">
+            <h2>Nuestro Café Estrella</h2>
+                <div class="product-card">
+                <img src="img/cafe.jpg" alt="Bolsa de café D'Nelliel">
+                <div class="product-info">
+                    <h3>Café de Altura - Tostado Medio</h3>
+                    <p>Un balance perfecto con notas achocolatadas, citricas y un cuerpo vibrante. Ideal para quienes aprecian un sabor complejo y un aroma envolvente. Molido o en grano</p>
+                    <a href="productos.html" class="cta-button-secondary">Descubre Todos los Productos</a>
+                </div>
+            </div>
+        </section>
+        <section class="our-story-preview">
+            <h2>Nuestra Historia: Pasión por el Café</h2>
+            <p>Cada grano de nuestro Café pasa por un viaje meticuloso, desde la siembra bajo sombra hasta un tostado artesanal que revela sus mejores atributos. Creemos en la agricultura sostenible y en el respeto por la naturaleza y nuestra gente.</p>
+            <a href="conocenos.html" class="cta-button-secondary">Conoce todo el Proceso</a>
+        </section>
+
+        <section id="contacto" class="contact-section">
+            <h2>¿Listo para Ordenar o Tienes Preguntas?</h2>
+            <p>Envianos un mensaje y te atenderemos personalmente para que disfrutes del auténtico sabor de D'Nelliel</p>
+            <form action="mailto:ismaeltorreszarate1995@gmail.com" method="post" enctype="text/plain">
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div>
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                </div>
+                <div>
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="correo_electronico" required>
+                </div>
+                <div>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" placeholder="Indica que producto te interesa" required></textarea>
+                </div>
+                <button type="submit">Enviar Mensaje</button>
+                <button type="reset">Eliminar formulario</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;2025 Cafe D'nelliel. Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
